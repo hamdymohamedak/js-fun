@@ -1,6 +1,5 @@
 function removeDuplicates(input) {
   if (Array.isArray(input)) {
-    // إزالة التكرار من المصفوفة
     return [...new Set(input)];
   } else if (typeof input === "object" && input !== null) {
     const seen = new Set();
