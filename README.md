@@ -15,3 +15,9 @@ TurnOffLogs();
 
 console.log("After TurnOff Logs"); // that log will not print
 ```
+
+## development console
+
+```js client
+console.dev("hello world");
+```
