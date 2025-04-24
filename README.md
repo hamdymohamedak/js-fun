@@ -10,14 +10,20 @@ console.log(filter); // outPut [1,2,3]
 
 ```js client
 console.log("Before TurnOff Logs"); // print normally
-
 TurnOffLogs();
-
 console.log("After TurnOff Logs"); // that log will not print
 ```
 
 ## development console
 
 ```js client
-console.dev("hello world");
+Console.dev("hello world");
+```
+
+## Turn Off development console
+
+```js client
+Console.dev("hello world");
+turnOffConsoleDev()
+Console.dev("hello world");
 ```
