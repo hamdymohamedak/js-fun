@@ -27,3 +27,18 @@ Console.dev("hello world");
 turnOffConsoleDev()
 Console.dev("hello world");
 ```
+
+## dedupeFetch 
+```js client
+const jsonData = [{ name: "Hamdy" }, { name: "Ali" }, { name: "Hamdy" }];
+
+const filter = dedupeFetch(jsonData);
+
+console.log(filter);
+// OutPut:
+// [
+//   { id: 1, name: "Hamdy" },
+//   { id: 2, name: "Ali" }
+// ]
+
+```
