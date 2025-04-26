@@ -1,3 +1,7 @@
+# Utility Functions
+
+This repository contains a collection of useful JavaScript utility functions.
+
 ## removeDuplicates
 
 ```js client
